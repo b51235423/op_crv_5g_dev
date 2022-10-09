@@ -731,6 +731,8 @@ FW_VERSIONS = {
       b'37805-5PD-Q630\x00\x00',
       b'37805-5PF-F730\x00\x00',
       b'37805-5PF-M630\x00\x00',
+      #
+      b'37805-5PF-F910\x00\x00',
     ],
     (Ecu.transmission, 0x18da1ef1, None): [
       b'28101-5RG-A020\x00\x00',
@@ -746,6 +748,8 @@ FW_VERSIONS = {
       b'28101-5RL-Q010\x00\x00',
       b'28101-5RM-F010\x00\x00',
       b'28101-5RM-K010\x00\x00',
+      #
+      b'28101-5RM-F110\x00\x00',
     ],
     (Ecu.vsa, 0x18da28f1, None): [
       b'57114-TLA-A040\x00\x00',
@@ -754,6 +758,8 @@ FW_VERSIONS = {
       b'57114-TLB-A830\x00\x00',
       b'57114-TMC-Z040\x00\x00',
       b'57114-TMC-Z050\x00\x00',
+      #
+      b'57114-TMC-Z060\x00\x00',
     ],
     (Ecu.eps, 0x18da30f1, None): [
       b'39990-TLA-A040\x00\x00',
@@ -763,12 +769,15 @@ FW_VERSIONS = {
       b'39990-TME-T030\x00\x00',
       b'39990-TME-T120\x00\x00',
       b'39990-TMT-T010\x00\x00',
+      #
     ],
     (Ecu.electricBrakeBooster, 0x18da2bf1, None): [
       b'46114-TLA-A040\x00\x00',
       b'46114-TLA-A050\x00\x00',
       b'46114-TLA-A930\x00\x00',
       b'46114-TMC-U020\x00\x00',
+      #
+      b'46114-TMC-U030\x00\x00',
     ],
     (Ecu.combinationMeter, 0x18da60f1, None): [
       b'78109-TLA-A110\x00\x00',
@@ -787,11 +796,14 @@ FW_VERSIONS = {
       b'78109-TMC-Q210\x00\x00',
       b'78109-TMM-F210\x00\x00',
       b'78109-TMM-M110\x00\x00',
+      #
+      b'78109-TMM-F220\x00\x00',
     ],
     (Ecu.gateway, 0x18daeff1, None): [
       b'38897-TLA-A010\x00\x00',
       b'38897-TLA-A110\x00\x00',
       b'38897-TNY-G010\x00\x00',
+      #
     ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'36802-TLA-A040\x00\x00',
@@ -800,6 +812,8 @@ FW_VERSIONS = {
       b'36802-TMC-Q040\x00\x00',
       b'36802-TMC-Q070\x00\x00',
       b'36802-TNY-A030\x00\x00',
+      #
+      b'36802-TMC-Q140\x00\x00',
     ],
     (Ecu.fwdCamera, 0x18dab5f1, None): [
       b'36161-TLA-A060\x00\x00',
@@ -811,6 +825,8 @@ FW_VERSIONS = {
       b'36161-TNY-A020\x00\x00',
       b'36161-TNY-A030\x00\x00',
       b'36161-TNY-A040\x00\x00',
+      #
+      b'36161-TMC-Q130\x00\x00',
     ],
     (Ecu.srs, 0x18da53f1, None): [
       b'77959-TLA-A240\x00\x00',
@@ -821,6 +837,8 @@ FW_VERSIONS = {
       b'77959-TLA-Q040\x00\x00',
       b'77959-TLA-Z040\x00\x00',
       b'77959-TMM-F040\x00\x00',
+      #
+      b'77959-TMM-F110\x00\x00',
     ],
   },
   CAR.CRV_EU: {
